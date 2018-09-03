@@ -14,7 +14,7 @@ class ErrorField extends Component {
       error && <h4 style={{ color: 'red' }}>{error}</h4>
     return (
       <div>
-        {label}: <input {...input} {...rest} />
+        {label}:<input {...input} {...rest} />
         {errorText}
       </div>
     )
